@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <h1>Haloo Cantikkkkkk</h1>
+        <img src="https://gifdb.com/images/high/funny-love-bear-sending-hearts-5uzvjgcmwyr2u7a7.gif">
+        <h1>Mau ngk jadi ceweku????</h1>
+        <button id="btn-mau" onclick='alert("I <3 U")'>Mau</button>
+        <button id="btn-gamau" onclick='gamau(this)' style='position:absolute;'>Gamau</button>
+    </body>
+    <script>
+        function gamau(id){
+            var mau = document.getElementById('btn-mau');
+            var i = Math.floor(Math.random()*300)+1;
+            var j = Math.floor(Math.random()*100)+mau.offsetTop;
+            id.style.left = i+'px';
+            id.style.top = j+'px';
+        }
+    </script>
+</html>
